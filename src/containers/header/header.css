@@ -3,6 +3,7 @@
 
 #header .imageContent {
   display: flex;
+  margin-top: 70px;
 }
 #header .imageContent .content {
   width: 50%;
