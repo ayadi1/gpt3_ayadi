@@ -1,0 +1,87 @@
+#WhatisGPT {
+  margin-top: 100px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #042c54;
+  color: #fff;
+  padding: 30px;
+}
+#WhatisGPT .GPTHeader {
+  display: flex;
+  align-items: flex-start;
+}
+#WhatisGPT .GPTHeader h2 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  width: 20%;
+}
+#WhatisGPT .GPTHeader h2::before {
+  content: "";
+  display: block;
+  width: 38px;
+  height: 3px;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+}
+#WhatisGPT .GPTHeader p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+
+  /* or 188% */
+
+  color: #81afdd;
+  width: 80%;
+}
+#WhatisGPT .headline {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+#WhatisGPT .headline h3 {
+  color: #f49867;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+}
+#WhatisGPT .headline p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+
+  /* identical to box height, or 188% */
+
+  color: #ff8a71;
+}
+#WhatisGPT .GPTFooter {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+#WhatisGPT .GPTFooter .card {
+  flex-wrap: 1;
+}
+#WhatisGPT .GPTFooter .card h4 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+
+  color: #ffffff;
+}
+#WhatisGPT .GPTFooter .card h4::before {
+  content: "";
+  display: block;
+  width: 38px;
+  height: 3px;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+}
+#WhatisGPT .GPTFooter .card p {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #81afdd;
+}

@@ -1,0 +1,99 @@
+#navBar {
+  position: relative;
+  color: #fff;
+  margin-top: 10px;
+  
+}
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navBar ul {
+  display: flex;
+  gap: 20px;
+}
+#navBar ul li a {
+  color: #fff;
+}
+#navBar .loginRegister button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  cursor: pointer;
+}
+#navBar .loginRegister button:first-child {
+  background-color: transparent;
+  color: #fff;
+  margin-right: 10px;
+}
+#navBar .loginRegister button:last-child {
+  background: #ff4820;
+  border-radius: 5px;
+  width: 152px;
+  height: 58px;
+}
+.navIcon {
+  display: none;
+  cursor: pointer;
+}
+.navMobile {
+  background-color: #fff;
+  color: #000;
+  width: 85%;
+  margin: auto;
+  position: absolute;
+  padding: 30px;
+  top: -500px;
+  left: 0;
+  right: 0;
+  transition: all .2s;
+}
+.navMobile .navMobileContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#navBar .navMobile .navMobileContent ul {
+  flex-direction: column;
+  gap: 10px;
+}
+#navBar .navMobile .navMobileContent ul li a {
+  color: #000;
+}
+#navBar .navMobile .navMobileContent .loginRegister {
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+}
+#navBar .navMobile .navMobileContent .loginRegister button:first-child {
+  color: #000;
+}
+.closeIcon {
+  color: #000;
+  z-index: 10;
+  position: absolute;
+  top: 10px;
+  right: 13px;
+  cursor: pointer;
+}
+.show {
+  top: 0px !important;
+}
+.hide {
+  top: -500px !important;
+}
+@media screen and (max-width: 850px) {
+  #navBar .navDesktop {
+    display: none;
+  }
+  .navIcon {
+    display: block;
+  }
+}
+@media screen and (max-width: 650px) {
+}
+@media screen and (max-width: 350px) {
+}
