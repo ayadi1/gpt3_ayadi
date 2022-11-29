@@ -9,7 +9,12 @@
   width: 50%;
 }
 #header .imageContent .content h2 {
-  color: #f49867;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
   font-weight: 800;
   font-size: 62px;
   line-height: 75px;
@@ -20,6 +25,7 @@
   font-size: 20px;
   line-height: 27px;
   color: #81afdd;
+  margin-top: 30px;
 }
 #header .imageContent .content .form {
   display: flex;
@@ -65,10 +71,10 @@
   #header .imageContent .image {
     width: 100%;
   }
-  #header .imageContent .content h2,#header .imageContent .content p{
+  #header .imageContent .content h2,
+  #header .imageContent .content p {
     text-align: center;
   }
-   
 }
 @media screen and (max-width: 650px) {
 }

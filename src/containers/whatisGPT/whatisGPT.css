@@ -12,7 +12,7 @@
 #WhatisGPT .GPTHeader h2 {
   font-weight: 800;
   font-size: 24px;
-  line-height: 75px;
+  line-height: 40px;
   letter-spacing: -0.04em;
   width: 20%;
 }
@@ -40,7 +40,12 @@
   margin-top: 70px;
 }
 #WhatisGPT .headline h3 {
-  color: #f49867;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
   font-weight: 800;
   font-size: 34px;
   line-height: 45px;
@@ -65,7 +70,7 @@
 #WhatisGPT .GPTFooter .card h4 {
   font-weight: 800;
   font-size: 24px;
-  line-height: 75px;
+  line-height: 40px;
   letter-spacing: -0.04em;
 
   color: #ffffff;
@@ -84,4 +89,38 @@
   font-size: 16px;
   line-height: 30px;
   color: #81afdd;
+}
+@media screen and (max-width: 950px) {
+  #WhatisGPT {
+  }
+  #WhatisGPT .GPTHeader {
+    flex-direction: column;
+  }
+  #WhatisGPT .GPTHeader h2 {
+    line-height: 40px;
+  }
+  #WhatisGPT .GPTHeader h2,
+  #WhatisGPT .GPTHeader p {
+    width: 100%;
+  }
+  #WhatisGPT .headline {
+    flex-direction: column;
+  }
+  #WhatisGPT .headline h3,
+  #WhatisGPT .headline p {
+    width: 100%;
+    gap: 30px;
+  }
+  #WhatisGPT .GPTFooter {
+    flex-direction: column;
+  }
+  #WhatisGPT .GPTFooter .card {
+    margin-top: 30px;
+  }
+  #WhatisGPT .GPTFooter .card h4 {
+    line-height: 40px;
+  }
+  #WhatisGPT .GPTFooter .card p {
+    margin-top: 15px;
+  }
 }
