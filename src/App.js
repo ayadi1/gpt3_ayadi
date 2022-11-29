@@ -1,4 +1,4 @@
-import { Header, Companies ,WhatisGPT , Feature } from "./containers";
+import { Header, Companies, WhatisGPT, Feature, MyApps ,Cta } from "./containers";
 import "./global.css";
 function App() {
   return (
@@ -7,6 +7,8 @@ function App() {
       <Companies />
       <WhatisGPT />
       <Feature />
+      <MyApps />
+      <Cta />
     </div>
   );
 }

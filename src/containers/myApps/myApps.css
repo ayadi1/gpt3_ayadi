@@ -1,0 +1,66 @@
+#myApps {
+  display: flex;
+  margin-top: 100px;
+  color: #fff;
+}
+#myApps .image {
+  width: 50%;
+}
+#myApps .image img {
+  width: 100%;
+}
+#myApps .content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+#myApps .content h5 {
+  font-weight: 500;
+  font-weight: 500;
+  font-size: 16px;
+  color: #71e5ff;
+}
+#myApps .content h4 {
+  font-weight: 800;
+  font-size: 34px;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%), #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+#myApps .content p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #81afdd;
+}
+#myApps .content h6 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ff8a71;
+}
+@media screen and (max-width: 950px) {
+  #myApps {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  #myApps .image {
+    width: 100%;
+  }
+  #myApps .image img {
+  }
+  #myApps .content {
+    width: 100%;
+    text-align: center;
+  }
+  #myApps .content h5 {
+  }
+  #myApps .content h4 {
+  }
+  #myApps .content p {
+  }
+  #myApps .content h6 {
+  }
+}
