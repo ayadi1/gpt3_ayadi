@@ -1,4 +1,12 @@
-import { Header, Companies, WhatisGPT, Feature, MyApps ,Cta } from "./containers";
+import {
+  Header,
+  Companies,
+  WhatisGPT,
+  Feature,
+  MyApps,
+  Cta,
+  Blog,
+} from "./containers";
 import "./global.css";
 function App() {
   return (
@@ -9,6 +17,7 @@ function App() {
       <Feature />
       <MyApps />
       <Cta />
+      <Blog />
     </div>
   );
 }

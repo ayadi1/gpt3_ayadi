@@ -1,0 +1,86 @@
+#blog {
+  margin-top: 100px;
+  color: #fff;
+}
+#blog h2 {
+  font-weight: 800;
+  font-size: 62px;
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+#blog .cards {
+  display: grid;
+  gap: 30px;
+  grid-template-areas:
+    "s i1 i2"
+    "s i3 i4";
+  margin-top: 100px;
+}
+#blog .cards .card:nth-child(1) {
+  grid-area: s;
+}
+#blog .cards .card:nth-child(2) {
+  grid-area: i1;
+}
+#blog .cards .card:nth-child(3) {
+  grid-area: i2;
+}
+#blog .cards .card:nth-child(4) {
+  grid-area: i3;
+}
+#blog .cards .card:nth-child(5) {
+  grid-area: i4;
+}
+#blog .cards .card {
+  display: flex;
+  flex-direction: column;
+}
+#blog .cards .card img {
+  width: 100%;
+}
+#blog .cards .card .data {
+  background: #042c54;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#blog .cards .card p {
+  font-weight: 700;
+  font-size: 11.649px;
+}
+#blog .cards .card h4 {
+  font-weight: 800;
+  font-size: 25.11px;
+}
+#blog .cards .card h6 {
+  font-weight: 700;
+  font-size: 11.649px;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 650px) {
+  #blog .cards {
+    grid-template-areas:
+      "s s"
+      "i1 i2"
+      "i3 i4";
+  }
+}
+@media screen and (max-width: 550px) {
+  #blog h2 {
+    font-size: 40px;
+  }
+  #blog .cards {
+    grid-template-areas:
+      "s"
+      "i1"
+      "i2"
+      "i3"
+      "i4";
+  }
+}
