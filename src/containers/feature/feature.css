@@ -1,7 +1,9 @@
+.feature__gradient--bg {
+  padding: 4rem 0;
+}
 #feature {
   color: #fff;
   display: flex;
-  margin-top: 150px;
   gap: 100px;
 }
 #feature .headline {

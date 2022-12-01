@@ -1,23 +1,18 @@
 import {
   Header,
-  Companies,
   WhatisGPT,
-  Feature,
   MyApps,
-  Cta,
-  Blog,
+  Blog,Footer
 } from "./containers";
 import "./global.css";
 function App() {
   return (
     <div className="App">
       <Header />
-      <Companies />
       <WhatisGPT />
-      <Feature />
       <MyApps />
-      <Cta />
       <Blog />
+      <Footer />
     </div>
   );
 }

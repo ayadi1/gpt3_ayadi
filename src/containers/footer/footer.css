@@ -1,0 +1,103 @@
+footer {
+  background: #031b34;
+  color: #fff;
+}
+footer .headlines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+footer .headlines h2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 62px;
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+footer .headlines p {
+  font-size: 18px;
+  border: 1.5px solid #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+footer .container {
+}
+footer .links {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+footer .links .logoData {
+}
+footer .links .logoData img {
+  width: 118px;
+  height: 30px;
+}
+footer .links .logoData p {
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+}
+footer .links nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+footer .links nav .list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer .links nav .list h3 {
+  font-size: 14px;
+  font-weight: bold;
+  
+}
+footer .links nav .list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+footer .links nav .list ul li {
+  font-size: 12px;
+  cursor: pointer;
+}
+footer .rights {
+  text-align: center;
+  padding: 50px;
+}
+footer .rights a {
+  color: red;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 950px) {
+  footer {
+  }
+  footer .container {
+  }
+  footer .links {
+  }
+  footer .links .logoData {
+  }
+  footer .links .logoData img {
+  }
+  footer .links .logoData p {
+  }
+  footer .links nav {
+  }
+  footer .links nav .list {
+  }
+  footer .links nav .list h3 {
+  }
+  footer .links nav .list ul {
+  }
+  footer .links nav .list ul li {
+    cursor: pointer;
+  }
+}

@@ -8,11 +8,20 @@ export default function Blog() {
     setArticlesData(articles);
   }, []);
   return (
-    <div className="container">
-      <div id="blog">
-        <h2>A lot is happening, We are blogging about it.</h2>
-        <div className="cards">
-          {articlesData.map(a=><Article content={a.content} date={a.date} image={a.image} key={a.id} />)}
+    <div className="blog__gradient--bg">
+      <div className="container">
+        <div id="blog">
+          <h2>A lot is happening, We are blogging about it.</h2>
+          <div className="cards">
+            {articlesData.map((a) => (
+              <Article
+                content={a.content}
+                date={a.date}
+                image={a.image}
+                key={a.id}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { NavBar } from "../../components";
 import "./header.css";
 import ai from "../../assets/ai.png";
+import Companies from "../companies/Companies";
 export default function Header() {
   return (
     <div id="header">
@@ -26,6 +27,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+      <Companies />
     </div>
   );
 }
