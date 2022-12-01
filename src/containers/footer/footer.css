@@ -25,15 +25,11 @@ footer .headlines p {
   padding: 10px;
   cursor: pointer;
 }
-footer .container {
-}
 footer .links {
   display: flex;
   gap: 50px;
   justify-content: space-between;
   margin-top: 100px;
-}
-footer .links .logoData {
 }
 footer .links .logoData img {
   width: 118px;
@@ -49,19 +45,18 @@ footer .links nav {
   width: 100%;
 }
 footer .links nav .list {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 footer .links nav .list h3 {
   font-size: 14px;
   font-weight: bold;
-  
 }
 footer .links nav .list ul {
-    display: flex;
-    flex-direction: column;
-    gap: 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
 }
 footer .links nav .list ul li {
   font-size: 12px;
@@ -82,22 +77,35 @@ footer .rights a {
   footer .container {
   }
   footer .links {
+    flex-direction: column;
   }
   footer .links .logoData {
+    text-align: center;
   }
   footer .links .logoData img {
   }
   footer .links .logoData p {
+    margin-top: 30px;
   }
   footer .links nav {
   }
-  footer .links nav .list {
-  }
+  
   footer .links nav .list h3 {
   }
   footer .links nav .list ul {
   }
   footer .links nav .list ul li {
     cursor: pointer;
+  }
+}
+@media screen and (max-width: 950px) {
+  footer .links nav {
+    flex-direction: column ;
+    align-items: center;
+  }
+  footer .links nav .list {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
   }
 }
