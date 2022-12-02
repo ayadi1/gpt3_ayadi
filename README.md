@@ -1,3 +1,8 @@
+# GPT-3
+
+### live preview => https://gpt3-ayadi.vercel.app/
+![Design preview for GPT-3 coding challenge](./previewImage.png) 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
